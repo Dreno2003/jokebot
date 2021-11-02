@@ -1,0 +1,67 @@
+* {
+	padding: 0px;
+	margin: 0px;
+
+}
+
+@font-face {
+	font-family: myFont;
+	src: url('font/IrishGrover-Regular.ttf');
+}
+
+@font-face {
+font-family: fontTwo;
+src:  url('TitilliumWeb-Regular.ttf');
+}
+
+body {
+	background-color: #6511d3;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.head {
+	font-family: fontTwo;
+	color: #535252e0;
+	font-size: 16.5px;
+}
+
+.joke-container {
+	width: 800px;
+	background-color: white;
+	padding: 56px 40px 56px 40px;
+	max-width: 100%;
+	background-image: url(img/emol.jpeg);
+	background-repeat: no-repeat;
+	background-size: 200px;
+	background-blend-mode: 40px;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+.main-joke {
+	font-family: myFont;
+	font-size: 28.5px;
+	color:#2b2a2af0  !important;
+	margin-top: 16px;
+	/*transition: .4s ease;*/
+}
+
+.joke-generator-btn {
+	background-color:#6511d3 ;
+	color: whitesmoke;
+	border: 0px;
+	padding: 12.5px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 17.5px;
+	transition: .4s ease;
+}
+
+.joke-generator-btn:hover {
+	background-color:#5104b5 !important;
+}
